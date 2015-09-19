@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7FFBB85B1BA16CDB0014838F /* AutoAdapt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoAdapt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFBB85B1BA16CDB0014838F /* aiMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aiMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFBB85F1BA16CDB0014838F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FFBB8601BA16CDB0014838F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FFBB8621BA16CDB0014838F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		7FFBB8691BA16CDB0014838F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FFBB86B1BA16CDB0014838F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7FFBB86E1BA16CDB0014838F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7FFBB8741BA16CDB0014838F /* AutoAdaptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAdaptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFBB8741BA16CDB0014838F /* aiMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aiMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFBB8791BA16CDB0014838F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FFBB87A1BA16CDB0014838F /* AutoAdaptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAdaptTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,8 +63,8 @@
 		7FFBB8521BA16CDB0014838F = {
 			isa = PBXGroup;
 			children = (
-				7FFBB85D1BA16CDB0014838F /* AutoAdapt */,
-				7FFBB8771BA16CDB0014838F /* AutoAdaptTests */,
+				7FFBB85D1BA16CDB0014838F /* aiMovie */,
+				7FFBB8771BA16CDB0014838F /* aiMovieTests */,
 				7FFBB85C1BA16CDB0014838F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +72,13 @@
 		7FFBB85C1BA16CDB0014838F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FFBB85B1BA16CDB0014838F /* AutoAdapt.app */,
-				7FFBB8741BA16CDB0014838F /* AutoAdaptTests.xctest */,
+				7FFBB85B1BA16CDB0014838F /* aiMovie.app */,
+				7FFBB8741BA16CDB0014838F /* aiMovieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FFBB85D1BA16CDB0014838F /* AutoAdapt */ = {
+		7FFBB85D1BA16CDB0014838F /* aiMovie */ = {
 			isa = PBXGroup;
 			children = (
 				7FFBB8621BA16CDB0014838F /* AppDelegate.h */,
@@ -90,6 +90,7 @@
 				7FFBB86D1BA16CDB0014838F /* LaunchScreen.xib */,
 				7FFBB85E1BA16CDB0014838F /* Supporting Files */,
 			);
+			name = aiMovie;
 			path = AutoAdapt;
 			sourceTree = "<group>";
 		};
@@ -102,12 +103,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7FFBB8771BA16CDB0014838F /* AutoAdaptTests */ = {
+		7FFBB8771BA16CDB0014838F /* aiMovieTests */ = {
 			isa = PBXGroup;
 			children = (
 				7FFBB87A1BA16CDB0014838F /* AutoAdaptTests.m */,
 				7FFBB8781BA16CDB0014838F /* Supporting Files */,
 			);
+			name = aiMovieTests;
 			path = AutoAdaptTests;
 			sourceTree = "<group>";
 		};
@@ -122,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FFBB85A1BA16CDB0014838F /* AutoAdapt */ = {
+		7FFBB85A1BA16CDB0014838F /* aiMovie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FFBB87E1BA16CDB0014838F /* Build configuration list for PBXNativeTarget "AutoAdapt" */;
+			buildConfigurationList = 7FFBB87E1BA16CDB0014838F /* Build configuration list for PBXNativeTarget "aiMovie" */;
 			buildPhases = (
 				7FFBB8571BA16CDB0014838F /* Sources */,
 				7FFBB8581BA16CDB0014838F /* Frameworks */,
@@ -134,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = AutoAdapt;
+			name = aiMovie;
 			productName = AutoAdapt;
-			productReference = 7FFBB85B1BA16CDB0014838F /* AutoAdapt.app */;
+			productReference = 7FFBB85B1BA16CDB0014838F /* aiMovie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FFBB8731BA16CDB0014838F /* AutoAdaptTests */ = {
+		7FFBB8731BA16CDB0014838F /* aiMovieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FFBB8811BA16CDB0014838F /* Build configuration list for PBXNativeTarget "AutoAdaptTests" */;
+			buildConfigurationList = 7FFBB8811BA16CDB0014838F /* Build configuration list for PBXNativeTarget "aiMovieTests" */;
 			buildPhases = (
 				7FFBB8701BA16CDB0014838F /* Sources */,
 				7FFBB8711BA16CDB0014838F /* Frameworks */,
@@ -152,9 +154,9 @@
 			dependencies = (
 				7FFBB8761BA16CDB0014838F /* PBXTargetDependency */,
 			);
-			name = AutoAdaptTests;
+			name = aiMovieTests;
 			productName = AutoAdaptTests;
-			productReference = 7FFBB8741BA16CDB0014838F /* AutoAdaptTests.xctest */;
+			productReference = 7FFBB8741BA16CDB0014838F /* aiMovieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,6 +170,12 @@
 				TargetAttributes = {
 					7FFBB85A1BA16CDB0014838F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = EKUV53NG42;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					7FFBB8731BA16CDB0014838F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -175,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7FFBB8561BA16CDB0014838F /* Build configuration list for PBXProject "AutoAdapt" */;
+			buildConfigurationList = 7FFBB8561BA16CDB0014838F /* Build configuration list for PBXProject "aiMovie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +196,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FFBB85A1BA16CDB0014838F /* AutoAdapt */,
-				7FFBB8731BA16CDB0014838F /* AutoAdaptTests */,
+				7FFBB85A1BA16CDB0014838F /* aiMovie */,
+				7FFBB8731BA16CDB0014838F /* aiMovieTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +246,7 @@
 /* Begin PBXTargetDependency section */
 		7FFBB8761BA16CDB0014838F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FFBB85A1BA16CDB0014838F /* AutoAdapt */;
+			target = 7FFBB85A1BA16CDB0014838F /* aiMovie */;
 			targetProxy = 7FFBB8751BA16CDB0014838F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -343,9 +351,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AutoAdapt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = aiMovie;
 			};
 			name = Debug;
 		};
@@ -353,9 +364,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AutoAdapt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = aiMovie;
 			};
 			name = Release;
 		};
@@ -373,7 +387,7 @@
 				);
 				INFOPLIST_FILE = AutoAdaptTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = aiMovieTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAdapt.app/AutoAdapt";
 			};
 			name = Debug;
@@ -388,7 +402,7 @@
 				);
 				INFOPLIST_FILE = AutoAdaptTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = aiMovieTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAdapt.app/AutoAdapt";
 			};
 			name = Release;
@@ -396,7 +410,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FFBB8561BA16CDB0014838F /* Build configuration list for PBXProject "AutoAdapt" */ = {
+		7FFBB8561BA16CDB0014838F /* Build configuration list for PBXProject "aiMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FFBB87C1BA16CDB0014838F /* Debug */,
@@ -405,21 +419,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FFBB87E1BA16CDB0014838F /* Build configuration list for PBXNativeTarget "AutoAdapt" */ = {
+		7FFBB87E1BA16CDB0014838F /* Build configuration list for PBXNativeTarget "aiMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FFBB87F1BA16CDB0014838F /* Debug */,
 				7FFBB8801BA16CDB0014838F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7FFBB8811BA16CDB0014838F /* Build configuration list for PBXNativeTarget "AutoAdaptTests" */ = {
+		7FFBB8811BA16CDB0014838F /* Build configuration list for PBXNativeTarget "aiMovieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FFBB8821BA16CDB0014838F /* Debug */,
 				7FFBB8831BA16CDB0014838F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
